@@ -286,6 +286,17 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Script\JSON\API.cs" />
+    <Compile Include="Assets\Script\JSON\ExportingData.cs" />
+    <Compile Include="Assets\Script\JSON\HandlingArrays.cs" />
+    <Compile Include="Assets\Script\JSON\JsonHelperr.cs" />
+    <Compile Include="Assets\Script\QuizGame\AnswerData.cs" />
+    <Compile Include="Assets\Script\QuizGame\DataController.cs" />
+    <Compile Include="Assets\Script\QuizGame\GameDataEditor.cs" />
+    <Compile Include="Assets\Script\QuizGame\PlayerProgress.cs" />
+    <Compile Include="Assets\Script\QuizGame\QuestionData.cs" />
+    <Compile Include="Assets\Script\QuizGame\QuizGameController.cs" />
+    <Compile Include="Assets\Script\QuizGame\RoundData.cs" />
     <Compile Include="Assets\Script\REST\Countries.cs" />
     <Compile Include="Assets\Script\REST\JsonHelper.cs" />
   </ItemGroup>

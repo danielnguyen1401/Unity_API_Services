@@ -13,7 +13,7 @@ public class JsonHelper
     [System.Serializable]
     class Wrapper<T>
     {
-        public T[] array;
+        public T[] array = null;
     }
 }
 
@@ -50,7 +50,7 @@ public class Translations
 }
 
 [System.Serializable]
-public class RootObject
+public class Country
 {
     public string name;
     public List<string> topLevelDomain;

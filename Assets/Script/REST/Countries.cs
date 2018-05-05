@@ -35,7 +35,7 @@ public class Countries : MonoBehaviour
             {
                 string jsonResult = System.Text.Encoding.UTF8.GetString(www.downloadHandler.data);
 //                Debug.Log(jsonResult);
-                RootObject[] countries = JsonHelper.GetJsonArray<RootObject>(jsonResult);
+                Country[] countries = JsonHelper.GetJsonArray<Country>(jsonResult);
 
                 ddlCountries.options.AddRange(countries.OrderBy(p => p.name)
                     .Select(x => new Dropdown.OptionData() {text = x.nativeName}).ToList());
@@ -45,7 +45,7 @@ public class Countries : MonoBehaviour
         }
     }
 
-    public void OnValueChange()
+    public void OnValueChange() // show the country's name by drop down
     {
         countryValueText.text = ddlCountries.options[ddlCountries.value].text;
     }
