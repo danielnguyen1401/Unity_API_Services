@@ -1,6 +1,7 @@
-[System.Serializable]
+﻿[System.Serializable]
 public class AnswerData
 {
-    public string[] answerText;
-    public bool isCorrect;
+	public string answerText;
+	public bool isCorrect;
 }
+

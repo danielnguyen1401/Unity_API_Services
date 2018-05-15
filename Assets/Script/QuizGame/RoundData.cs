@@ -1,8 +1,8 @@
-[System.Serializable]
+﻿[System.Serializable]
 public class RoundData
 {
-    public string roundName;
-    public int limitTimeInSecond;
-    public int pointForCorrectAnswer;
-    public QuestionData[] questions;
+	public string name;
+	public int timeLimitInSeconds;
+	public int pointsAddedForCorrectAnswer;
+	public QuestionData[] questions;
 }
